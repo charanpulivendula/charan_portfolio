@@ -10,6 +10,7 @@
   src: local("Montserrat"),
     url("./assets/fonts/Montserrat-Regular.ttf") format("woff");
 }
+
 @font-face {
   font-family: "Google Sans Bold";
   src: local("Google Sans Bold"),
@@ -40,14 +41,26 @@
   src: local("Google Sans Regular"),
     url("./assets/fonts/GoogleSans-Regular.ttf") format("woff");
 }
+
+@font-face {
+  font-family: "Excalifont";
+  src: url("./assets/fonts/Excalifont-Regular.ttf") format("woff");
+}
+
+@font-face {
+  font-family: "Patrick";
+  src: url(./assets/fonts/PatrickHand-Regular.ttf) format("woff");
+}
+
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  font-family: "Excalifont", source-code-pro, Menlo, Monaco, Consolas,
+    "Courier New", monospace;
 }
 html,
 body {
   scroll-behavior: smooth;
   overflow-x: hidden;
+  font-family: "Excalifont";
 }
 body {
   margin: 0;
@@ -55,7 +68,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-/* Media Query */
+
 @media (max-width: 1380px) {
   html,
   body {

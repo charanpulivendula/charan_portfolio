@@ -21,7 +21,7 @@ const seo = {
 const greeting = {
   title: "Reddy Charan Pulivendula",
   logo_name: "ReddyCharanPulivendula",
-  nickname: "Cherry",
+  nickname: "USA",
   subTitle:
     "A Passionate Full-Stack Developer & Software Engineer crafting seamless, high-performance solutions that merge creativity, precision, and innovation.",
   resumeLink:
@@ -42,43 +42,31 @@ const socialMediaLinks = [
 
   {
     name: "Github",
-    link: "https://github.com/ashutosh1919",
+    link: "https://github.com/charanpulivendula",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/ashutosh1919/",
+    link: "https://www.linkedin.com/in/charanpulivendula/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
   {
-    name: "YouTube",
-    link: "https://youtube.com/c/DevSense19",
-    fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
-    backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
-  },
-  {
     name: "Gmail",
-    link: "mailto:ashutoshhathidara98@gmail.com",
+    link: "mailto:reddycharanpuli@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
   {
     name: "X-Twitter",
-    link: "https://twitter.com/ashutosh_1919",
+    link: "https://twitter.com/charanpulivdla",
     fontAwesomeIcon: "fa-x-twitter", // Reference https://fontawesome.com/icons/x-twitter?f=brands&s=solid
     backgroundColor: "#000000", // Reference https://simpleicons.org/?q=x
   },
   {
-    name: "Facebook",
-    link: "https://www.facebook.com/laymanbrother.19/",
-    fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
-    backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
-  },
-  {
     name: "Instagram",
-    link: "https://www.instagram.com/layman_brother/",
+    link: "https://www.instagram.com/charan_cherry_pgr/",
     fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
     backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
   },
@@ -87,16 +75,17 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "Data Science & AI",
-      fileName: "DataScienceImg",
+      title: "Front End Development",
+      fileName: "FrontendImg",
       skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
+        "⚡ Building high-performance, SEO-friendly applications with React.js, Next.js, and Server-Side Rendering (SSR)",
+        "⚡ Creating stunning, accessible interfaces using Tailwind CSS, Material UI, Figma, and design tokens",
+        "⚡ Work with Redux, Zustand, Recoil, and WebSockets for real-time, efficient data handling",
+        "⚡ Build responsive PWA, React Native, and Flutter apps",
       ],
       softwareSkills: [
         {
-          skillName: "Tensorflow",
+          skillName: "React",
           fontAwesomeClassname: "logos-tensorflow",
           style: {
             backgroundColor: "transparent",
@@ -132,12 +121,13 @@ const skills = {
       ],
     },
     {
-      title: "Full Stack Development",
-      fileName: "FullStackImg",
+      title: "Back End Development",
+      fileName: "DataScienceImg",
       skills: [
-        "⚡ Building responsive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "⚡ Building high-performance APIs and microservices using Node.js, Express.js, and Spring Boot.",
+        "⚡ Working with PostgreSQL, MySQL, MongoDB, and DynamoDB, implementing indexing and query optimization",
+        "⚡ Designing secure, efficient RESTful and GraphQL APIs, handling 10K+ transactions daily",
+        "⚡ Implement Kafka, Spark, Redis, and WebSockets for low-latency, event-driven applications",
       ],
       softwareSkills: [
         {
