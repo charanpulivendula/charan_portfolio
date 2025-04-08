@@ -2,7 +2,7 @@
   "private": true,
   "name": "masterPortfolio",
   "version": "0.1.0",
-  "homepage": "https://charanpulivendula.github.io",
+  "homepage": "https://charanpulivendula.github.io/charanpulivendula_portfolio",
   "scripts": {
     "build": "react-scripts --openssl-legacy-provider build",
     "predeploy": "npm run build",
