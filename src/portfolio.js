@@ -364,7 +364,6 @@ const degrees = {
       subtitle: "M.S. in Computer Science",
       logo_path: "iu_logo.png",
       alt_name: "Indiana University Bloomington",
-      duration: "2022 - 2024",
       descriptions: [
         "⚡ I have taken courses related to Software Engineering, Full Stack Development, Artificial Intelligence, and Cloud Computing",
         "⚡ Apart from this, I was a Teaching Assistant. As part of it, I have worked on creating new algorithms for the Robotics Lab ",
@@ -377,7 +376,6 @@ const degrees = {
       subtitle: "Bachelors in Computer Science",
       logo_path: "SASTRA_LOGO.png",
       alt_name: "SASTRA University",
-      duration: "2016 - 2020",
       descriptions: [
         "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
         "⚡ Apart from this, I have done courses on Data Science, Cloud Computing and Full Stack Development Deep Learning.",
