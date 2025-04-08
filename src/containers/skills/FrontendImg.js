@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-export default class FrontendImg extends Component {
+export default class FrontEndImg extends Component {
   render() {
     const theme = this.props.theme;
     return (

@@ -40,11 +40,6 @@ class DegreeCard extends Component {
                   {degree.subtitle}
                 </h3>
               </div>
-              <div className="body-header-duration">
-                <h3 className="duration" style={{ color: theme.text }}>
-                  {degree.duration}
-                </h3>
-              </div>
             </div>
             <div className="body-content">
               {degree.descriptions.map((sentence) => {

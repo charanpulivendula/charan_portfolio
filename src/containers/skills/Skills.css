@@ -1,18 +1,14 @@
-/* Main skills container */
 .skills-main-div {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
   overflow: hidden;
-  margin-bottom: 40px;
 }
 
-/* Alternating layout: every odd row switches text and image */
-.skills-main-div:nth-child(odd) {
+.skills-main-div-reverse {
+  display: flex;
   flex-direction: row-reverse;
+  overflow: hidden;
 }
 
-/* Skills section header */
 .skills-header {
   font-size: 60px;
   line-height: normal;
@@ -20,46 +16,35 @@
   text-align: center;
 }
 
-/* Skill description text */
 .skills-text {
-  font-size: 25px;
+  font-size: 30px;
+  font-family: "Patrick";
+  line-height: 1.25;
 }
 
-/* Skills text section */
 .skills-text-div {
   margin-left: 50px;
-  font-family: "Patrick";
-  flex: 1;
 }
 
-/* Ensuring balanced layout */
 .skills-main-div > * {
   flex: 1;
   margin-bottom: 30px;
 }
 
-/* Image container styling */
-.skills-image-div {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-}
-
 .skills-image-div > * {
   max-width: 100%;
   height: auto;
-  margin-top: 80px;
+  margin-top: 100px;
 }
 
-/* Skills heading */
 .skills-heading {
-  font-size: 56px;
+  font-size: 65px;
   font-weight: 400;
-  font-family: "Excalifont";
+  font-family: "Patrick";
   line-height: normal;
 }
 
-/* Media Queries for Responsiveness */
+/* Media Query */
 @media (max-width: 1380px) {
   .skills-heading {
     font-size: 40px;
@@ -67,61 +52,44 @@
   .skills-header {
     font-size: 50px;
   }
+  /* .skills-image-div > img {
+    margin-top: 0px;
+  } */
 }
-
-@media (max-width: 1024px) {
-  .skills-text-div {
-    margin-left: 30px;
-  }
-  .skills-heading {
-    font-size: 36px;
-  }
-  .skills-text {
-    font-size: 20px;
-  }
-}
-
 @media (max-width: 768px) {
-  /* Switch to column layout */
-  .skills-main-div {
-    flex-direction: column;
-    align-items: center;
+  .skills-heading {
+    font-size: 30px;
     text-align: center;
   }
-
-  /* Adjust margins for mobile */
+  .skills-header {
+    font-size: 30px;
+  }
+  .greeting-text-p {
+    font-size: 16px;
+    line-height: normal;
+  }
+  .skills-main-div {
+    flex-direction: column;
+  }
+  .skills-main-div-reverse {
+    display: flex;
+    flex-direction: column;
+  }
   .skills-text-div {
     margin-left: 0px;
     margin: 20px;
   }
-
-  .skills-heading {
-    font-size: 30px;
-  }
-
-  .skills-header {
-    font-size: 30px;
-  }
-
-  .greeting-text-p {
-    font-size: 18px;
-    line-height: normal;
-  }
-
   .skills-text {
-    font-size: 18px;
+    font-size: 16px;
   }
-
   .skills-text-subtitle {
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
   }
-
-  /* Ensure images stack below text on mobile */
   .skills-image-div {
+    /* display: none; */
     order: 2;
   }
-
   .skills-image-div > * {
     margin-top: 0px;
   }

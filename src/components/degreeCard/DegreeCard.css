@@ -3,17 +3,16 @@
   width: 100%;
   justify-content: center;
   align-items: center;
+  font-family: "Patrick";
 }
 
 .card-title {
-  font-family: "Google Sans Medium";
-  font-size: 23px;
+  font-size: 25px;
   /* color: #000000; */
 }
 
 .card-subtitle {
-  font-family: "Google Sans Medium";
-  font-size: 18px;
+  font-size: 22px;
   /* color: #000000; */
   margin-top: 7px;
   margin-bottom: 5px;
@@ -47,13 +46,6 @@
 .body-header-duration {
   width: 20%;
 }
-.duration {
-  font-family: "Google Sans Regular";
-  font-size: 16px;
-  /* color: #212121; */
-  padding-right: 10px;
-  float: right;
-}
 
 .body-content {
   max-width: inherit;
@@ -68,7 +60,8 @@
 .content-list {
   padding-left: 10px;
   padding-right: 10px;
-  font-family: "Google Sans Regular";
+  font-size: 18px;
+  line-height: 1.25;
 }
 
 .card-body {
@@ -98,7 +91,6 @@
 .btn {
   margin: 0px;
   padding: 0px;
-  font-family: "Google Sans Regular";
   /* color: #000000; */
 }
 

@@ -1,8 +1,12 @@
 .educations-header {
   font-size: 40px;
-  line-height: 1.1;
-  font-family: "Google Sans Regular";
+  font-family: "Excalifont";
   text-align: center;
+}
+
+.educations-body-div {
+  font-family: "Patrick";
+  line-height: 1.1;
 }
 
 @media (max-width: 1380px) {

@@ -13,33 +13,25 @@ const seo = {
   og: {
     title: "Reddy Charan Pulivendula",
     type: "website",
-    url: "http://ashutoshhathidara.com/",
+    url: "http://charanpulivendula.github.io/",
   },
 };
 
 //Home Page
 const greeting = {
   title: "Reddy Charan Pulivendula",
-  logo_name: "ReddyCharanPulivendula",
+  logo_name: "RCP",
   nickname: "USA",
   subTitle:
     "A Passionate Full-Stack Developer & Software Engineer crafting seamless, high-performance solutions that merge creativity, precision, and innovation.",
   resumeLink:
     "https://drive.google.com/file/d/1ADnK5Yn0lJo7l85jrJs4qWmtSL3m6F5U/view?usp=drive_link",
-  portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
-  githubProfile: "https://github.com/ashutosh1919",
+  portfolio_repository:
+    "https://github.com/charanpulivendula/charanpulivendula.github.io/tree/main",
+  githubProfile: "https://github.com/charanpulivendula",
 };
 
 const socialMediaLinks = [
-  /* Your Social Media Link */
-  // github: "https://github.com/ashutosh1919",
-  // linkedin: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
-  // gmail: "ashutoshhathidara98@gmail.com",
-  // gitlab: "https://gitlab.com/ashutoshhathidara98",
-  // facebook: "https://www.facebook.com/laymanbrother.19/",
-  // twitter: "https://twitter.com/ashutosh_1919",
-  // instagram: "https://www.instagram.com/layman_brother/"
-
   {
     name: "Github",
     link: "https://github.com/charanpulivendula",
@@ -76,60 +68,28 @@ const skills = {
   data: [
     {
       title: "Front End Development",
-      fileName: "FrontendImg",
+      fileName: "FrontEndImg",
       skills: [
         "⚡ Building high-performance, SEO-friendly applications with React.js, Next.js, and Server-Side Rendering (SSR)",
-        "⚡ Creating stunning, accessible interfaces using Tailwind CSS, Material UI, Figma, and design tokens",
+        "⚡ Creating stunning, accessible interfaces using Tailwind CSS, Material UI, D3.js and design tokens",
         "⚡ Work with Redux, Zustand, Recoil, and WebSockets for real-time, efficient data handling",
         "⚡ Build responsive PWA, React Native, and Flutter apps",
       ],
       softwareSkills: [
         {
           skillName: "React",
-          fontAwesomeClassname: "logos-tensorflow",
+          fontAwesomeClassname: "logos-react",
           style: {
             backgroundColor: "transparent",
           },
         },
         {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
-          style: {
-            backgroundColor: "white",
-            color: "#D00000",
-          },
-        },
-        {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
+          skillName: "Next",
+          fontAwesomeClassname: "logos-nextjs",
           style: {
             backgroundColor: "transparent",
           },
         },
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
-          },
-        },
-        {
-          skillName: "Deeplearning",
-          imageSrc: "deeplearning_ai_logo.png",
-        },
-      ],
-    },
-    {
-      title: "Back End Development",
-      fileName: "DataScienceImg",
-      skills: [
-        "⚡ Building high-performance APIs and microservices using Node.js, Express.js, and Spring Boot.",
-        "⚡ Working with PostgreSQL, MySQL, MongoDB, and DynamoDB, implementing indexing and query optimization",
-        "⚡ Designing secure, efficient RESTful and GraphQL APIs, handling 10K+ transactions daily",
-        "⚡ Implement Kafka, Spark, Redis, and WebSockets for low-latency, event-driven applications",
-      ],
-      softwareSkills: [
         {
           skillName: "HTML5",
           fontAwesomeClassname: "simple-icons:html5",
@@ -160,10 +120,72 @@ const skills = {
           },
         },
         {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
+          skillName: "Tailwindcss",
+          fontAwesomeClassname: "simple-icons:tailwindcss",
           style: {
             color: "#61DAFB",
+          },
+        },
+        {
+          skillName: "D3js",
+          style: {
+            color: "#61DAFB",
+          },
+        },
+        {
+          skillName: "Python",
+          fontAwesomeClassname: "ion-logo-python",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
+          },
+        },
+      ],
+    },
+    {
+      title: "Back End Development",
+      fileName: "BackEndImg",
+      skills: [
+        "⚡ Building high-performance APIs and microservices using Node.js, Express.js, and Spring Boot.",
+        "⚡ Working with PostgreSQL, MySQL, MongoDB, and DynamoDB, implementing indexing and query optimization",
+        "⚡ Designing secure, efficient RESTful and GraphQL APIs, handling 10K+ transactions daily",
+        "⚡ Implement Kafka, Spark, Redis, and WebSockets for low-latency, event-driven applications",
+      ],
+      softwareSkills: [
+        {
+          skillName: "SpringBoot",
+          fontAwesomeClassname: "simple-icons:springboot",
+          style: {
+            color: "#008000",
+          },
+        },
+        {
+          skillName: "MySQL",
+          fontAwesomeClassname: "simple-icons:mysql",
+          style: {
+            color: "#1572B6",
+          },
+        },
+        {
+          skillName: "Postgresql",
+          fontAwesomeClassname: "simple-icons:postgresql",
+          style: {
+            color: "#0064a5",
+          },
+        },
+        {
+          skillName: "Express",
+          fontAwesomeClassname: "simple-icons:express",
+          style: {
+            backgroundColor: "#000000",
+            color: "#F7DF1E",
+          },
+        },
+        {
+          skillName: "GraphQL",
+          fontAwesomeClassname: "simple-icons:graphql",
+          style: {
+            color: "#e535ab",
           },
         },
         {
@@ -181,36 +203,36 @@ const skills = {
           },
         },
         {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
+          skillName: "Kafka",
+          fontAwesomeClassname: "simple-icons:apachekafka",
           style: {
-            color: "#2C8EBB",
+            color: "#ffffff",
           },
         },
         {
-          skillName: "Gatsby",
-          fontAwesomeClassname: "simple-icons:gatsby",
+          skillName: "websockets",
+          fontAwesomeClassname: "simple-icons:socketdotio",
           style: {
-            color: "#663399",
+            color: "#ffffff",
           },
         },
         {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
+          skillName: "Redis",
+          fontAwesomeClassname: "simple-icons:redis",
           style: {
-            color: "#02569B",
+            color: "#DC382D",
           },
         },
       ],
     },
     {
-      title: "Cloud Infra-Architecture",
+      title: "Cloud Infra and DevOPS",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
+        "⚡ Scaled systems 45% with AWS(EC2, Lambda, EKS, S3), Kubernetes & Terraform",
+        "⚡ Cut deployment time 40% with Jenkins, Docker & Kubernetes",
+        "⚡ Powered 10K+ daily transactions with AWS & Spring Boot",
+        "⚡ Boosted processing 30% using Apache Kafka & Spark",
       ],
       softwareSkills: [
         {
@@ -276,8 +298,8 @@ const skills = {
       fileName: "DesignImg",
       skills: [
         "⚡ Designing highly attractive user interface for mobile and web applications",
-        "⚡ Customizing logo designs and building logos from scratch",
-        "⚡ Creating the flow of application functionalities to optimize user experience",
+        "⚡ Creating wireframes and prototypes with effective user survey and feedback",
+        "⚡ Creating the flow of application functionalities to optimize UX",
       ],
       softwareSkills: [
         {
@@ -322,7 +344,7 @@ const competitiveSites = {
       style: {
         color: "#F79F1B",
       },
-      profileLink: "https://leetcode.com/layman_brother/",
+      profileLink: "https://leetcode.com/u/ReddyCharanPulivendula/",
     },
     {
       siteName: "HackerRank",
@@ -330,39 +352,7 @@ const competitiveSites = {
       style: {
         color: "#2EC866",
       },
-      profileLink: "https://www.hackerrank.com/layman_brother",
-    },
-    {
-      siteName: "Codechef",
-      iconifyClassname: "simple-icons:codechef",
-      style: {
-        color: "#5B4638",
-      },
-      profileLink: "https://www.codechef.com/users/ashutosh_1919",
-    },
-    {
-      siteName: "Codeforces",
-      iconifyClassname: "simple-icons:codeforces",
-      style: {
-        color: "#1F8ACB",
-      },
-      profileLink: "http://codeforces.com/profile/layman_brother",
-    },
-    {
-      siteName: "Hackerearth",
-      iconifyClassname: "simple-icons:hackerearth",
-      style: {
-        color: "#323754",
-      },
-      profileLink: "https://www.hackerearth.com/@ashutosh391",
-    },
-    {
-      siteName: "Kaggle",
-      iconifyClassname: "simple-icons:kaggle",
-      style: {
-        color: "#20BEFF",
-      },
-      profileLink: "https://www.kaggle.com/laymanbrother",
+      profileLink: "https://www.hackerrank.com/profile/charanpuli",
     },
   ],
 };
@@ -370,30 +360,30 @@ const competitiveSites = {
 const degrees = {
   degrees: [
     {
-      title: "Indian Institute of Information Technology Kurnool",
-      subtitle: "B.Tech. in Computer Engineering",
-      logo_path: "iiitk_logo.png",
-      alt_name: "IIITDM Kurnool",
-      duration: "2016 - 2020",
-      descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-        "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
-      ],
-      website_link: "http://iiitk.ac.in",
-    },
-    {
       title: "Indiana University Bloomington",
       subtitle: "M.S. in Computer Science",
       logo_path: "iu_logo.png",
       alt_name: "Indiana University Bloomington",
-      duration: "2021 - 2023",
+      duration: "2022 - 2024",
       descriptions: [
-        "⚡ I have taken varity of courses related to Artificial Intelligence which correspond to Explainable AI, Graph Machine Learning, Computer Vision etc.",
-        "⚡ Apart from this, I have also done research assistantship. As part of it, I have worked on creating new algorithms in Graph ML and Network Science.",
-        "⚡ During my time at university, I was also associated with multimedia department. As part of it, I have worked on some documentry films and interviews.",
+        "⚡ I have taken courses related to Software Engineering, Full Stack Development, Artificial Intelligence, and Cloud Computing",
+        "⚡ Apart from this, I was a Teaching Assistant. As part of it, I have worked on creating new algorithms for the Robotics Lab ",
+        "⚡ During my time at university, I was also associated with Robotics department. As part of it, I have worked on Robot Operating Systems.",
       ],
       website_link: "https://www.indiana.edu/",
+    },
+    {
+      title: "SASTRA Deemed to be university",
+      subtitle: "Bachelors in Computer Science",
+      logo_path: "SASTRA_LOGO.png",
+      alt_name: "SASTRA University",
+      duration: "2016 - 2020",
+      descriptions: [
+        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
+        "⚡ Apart from this, I have done courses on Data Science, Cloud Computing and Full Stack Development Deep Learning.",
+        "⚡ Served as a Student Representative and CS Club President, contributing to academic and extracurricular excellence.",
+      ],
+      website_link: "http://sastra.edu",
     },
   ],
 };
@@ -417,96 +407,6 @@ const certifications = {
         "https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
       alt_name: "deeplearning.ai",
       color_code: "#00000099",
-    },
-    {
-      title: "ML on GCP",
-      subtitle: "- GCP Training",
-      logo_path: "google_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
-      alt_name: "Google",
-      color_code: "#0C9D5899",
-    },
-    {
-      title: "Data Science",
-      subtitle: "- Alex Aklson",
-      logo_path: "ibm_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
-      alt_name: "IBM",
-      color_code: "#1F70C199",
-    },
-    {
-      title: "Big Data",
-      subtitle: "- Kim Akers",
-      logo_path: "microsoft_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/164zKCFOsI4vGqokc-Qj-e_D00kLDHIrG/view",
-      alt_name: "Microsoft",
-      color_code: "#D83B0199",
-    },
-    {
-      title: "Advanced Data Science",
-      subtitle: "- Romeo Kienzler",
-      logo_path: "ibm_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/BH2T9BRU87BH",
-      alt_name: "IBM",
-      color_code: "#1F70C199",
-    },
-    {
-      title: "Advanced ML on GCP",
-      subtitle: "- GCP Training",
-      logo_path: "google_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/5JZZM7TNQ2AV",
-      alt_name: "Google",
-      color_code: "#0C9D5899",
-    },
-    {
-      title: "DL on Tensorflow",
-      subtitle: "- Laurence Moroney",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/6T4DCUGNK8J8",
-      alt_name: "deeplearning.ai",
-      color_code: "#00000099",
-    },
-    {
-      title: "Fullstack Development",
-      subtitle: "- Jogesh Muppala",
-      logo_path: "coursera_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/certificate/NRANJA66Y2YA",
-      alt_name: "Coursera",
-      color_code: "#2A73CC",
-    },
-    {
-      title: "Kuberenetes on GCP",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://google.qwiklabs.com/public_profiles/e4d5a92b-faf6-4679-a70b-a9047c0cd750",
-      alt_name: "GCP",
-      color_code: "#4285F499",
-    },
-    {
-      title: "Cryptography",
-      subtitle: "- Saurabh Mukhopadhyay",
-      logo_path: "nptel_logo.png",
-      certificate_link:
-        "https://drive.google.com/open?id=1z5ExD_QJVdU0slLkp8CBqSF3-C3g-ro_",
-      alt_name: "NPTEL",
-      color_code: "#FFBB0099",
-    },
-    {
-      title: "Cloud Architecture",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://google.qwiklabs.com/public_profiles/5fab4b2d-be6f-408c-8dcb-6d3b58ecb4a2",
-      alt_name: "GCP",
-      color_code: "#4285F499",
     },
   ],
 };
@@ -716,7 +616,7 @@ const publications = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "animated_ashutosh.png",
+    profile_image_path: "",
     description:
       "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
   },

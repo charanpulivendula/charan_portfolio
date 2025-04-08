@@ -49,7 +49,7 @@
 
 .menu {
   font-family: "Patrick";
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .header .menu {
@@ -144,6 +144,6 @@
 }
 @media (max-width: 960px) and (min-width: 768px) {
   .header {
-    font-size: 12px;
+    font-size: 14px;
   }
 }

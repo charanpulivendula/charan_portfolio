@@ -33,7 +33,7 @@
 .heading-text {
   font-size: 56px;
   font-weight: 400;
-  font-family: "Google Sans Medium";
+  font-family: "Excalifont";
   line-height: 1.1;
   text-align: center;
   margin-top: 100px;
@@ -41,7 +41,8 @@
 
 .heading-sub-text {
   font-size: 30px;
-  font-family: "Google Sans Regular";
+  font-family: "Patrick";
+  letter-spacing: 2px;
   text-align: center;
 }
 

@@ -44,7 +44,7 @@
 
 @font-face {
   font-family: "Excalifont";
-  src: url("./assets/fonts/Excalifont-Regular.ttf") format("woff");
+  src: url(./assets/fonts/Excalifont-Regular.ttf) format("woff");
 }
 
 @font-face {

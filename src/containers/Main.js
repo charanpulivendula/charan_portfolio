@@ -18,13 +18,7 @@ export default class Main extends Component {
           <Route
             path="/"
             exact
-            render={(props) =>
-              settings.isSplash ? (
-                <Splash {...props} theme={this.props.theme} />
-              ) : (
-                <Home {...props} theme={this.props.theme} />
-              )
-            }
+            render={(props) => <Home {...props} theme={this.props.theme} />}
           />
           <Route
             path="/home"
@@ -34,7 +28,8 @@ export default class Main extends Component {
             path="/experience"
             exact
             render={(props) => (
-              <Experience {...props} theme={this.props.theme} />
+              // <Experience {...props} theme={this.props.theme} />
+              <h1>Adding soon...</h1>
             )}
           />
           <Route
@@ -46,24 +41,24 @@ export default class Main extends Component {
           <Route
             path="/opensource"
             render={(props) => (
-              <Opensource {...props} theme={this.props.theme} />
+              // <Opensource {...props} theme={this.props.theme} />
+              <h1>Adding soon...</h1>
             )}
           />
           <Route
             path="/contact"
-            render={(props) => <Contact {...props} theme={this.props.theme} />}
+            render={(props) => (
+              // <Contact {...props} theme={this.props.theme} />
+              <h1>Adding soon...</h1>
+            )}
           />
-
-          {settings.isSplash && (
-            <Route
-              path="/splash"
-              render={(props) => <Splash {...props} theme={this.props.theme} />}
-            />
-          )}
 
           <Route
             path="/projects"
-            render={(props) => <Projects {...props} theme={this.props.theme} />}
+            render={(props) => (
+              // <Projects {...props} theme={this.props.theme} />
+              <h1>Adding soon...</h1>
+            )}
           />
           <Route
             path="*"
