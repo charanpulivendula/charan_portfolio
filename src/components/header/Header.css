@@ -64,18 +64,24 @@
   cursor: pointer;
   display: inline-block;
   float: right;
-  padding: 28px 20px;
+  padding: 20px 12px;
   position: relative;
   user-select: none;
 }
 
-.header .menu-icon .navicon {
+.header .navicon {
   background: #333;
   display: block;
   height: 2px;
   position: relative;
   transition: background 0.2s ease-out;
   width: 18px;
+}
+.menu-icon {
+  background: #fff;
+  border-radius: 25%;
+  height: 2px;
+  margin-top: 5px;
 }
 
 .header .menu-icon .navicon:before,

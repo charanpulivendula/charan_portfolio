@@ -1,0 +1,183 @@
+.exp-main-div {
+  display: flex;
+  overflow: hidden;
+}
+
+.exp-main-div-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+  overflow: hidden;
+}
+
+.exp-header {
+  font-size: 100px;
+  line-height: normal;
+  font-family: "Excalifont";
+  text-align: center;
+}
+
+.exp-text {
+  font-size: 30px;
+  font-family: "Patrick";
+  line-height: 1.25;
+}
+
+.exp-text-div {
+  margin-left: 50px;
+}
+
+.exp-main-div > * {
+  flex: 1;
+  margin-bottom: 10px;
+}
+
+.company_logo {
+  text-align: center;
+}
+
+.exp-image-div {
+  height: auto;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.company_div {
+  position: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.exp-heading {
+  font-size: 55px;
+  font-weight: 400;
+  font-family: "Patrick";
+  text-align: center;
+  line-height: 1;
+}
+
+.exp-sub-heading {
+  font-size: 40px;
+  text-align: center;
+  font-family: "Patrick";
+}
+
+.vail-image-wrapper {
+  background-color: aqua;
+  border-radius: 2%;
+  text-align: center;
+}
+
+.vail-image-wrapper img {
+  margin-bottom: 2px;
+  border-radius: 2%;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Logos */
+.hp-logo {
+  margin-left: 20%;
+  width: 750px;
+  height: 400px;
+}
+
+.vail-logo,
+.boozimba-logo {
+  width: 250px;
+  height: 250px;
+}
+
+/* Media Query */
+@media (max-width: 1380px) {
+  .exp-heading {
+    font-size: 40px;
+  }
+  .exp-header {
+    font-size: 50px;
+  }
+  .hp-logo {
+    margin-left: 20%;
+    width: 450px;
+    height: 250px;
+  }
+  /* .exp-image-div > img {
+    margin-top: 0px;
+  } */
+}
+@media (max-width: 768px) {
+  .exp-main-div,
+  .exp-main-div-reverse {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .exp-heading {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .exp-header {
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .greeting-text-p {
+    font-size: 18px;
+    line-height: normal;
+    text-align: center;
+  }
+
+  .exp-text-div {
+    margin: 5px;
+    text-align: justify;
+  }
+
+  .exp-text {
+    font-size: 18px;
+    text-align: left;
+  }
+
+  .exp-sub-heading {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .exp-image-div {
+    order: 2;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .exp-image-div img {
+    max-width: 100%;
+    max-height: 250px;
+    height: auto;
+    object-fit: contain;
+  }
+
+  .company_div {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .vail-image-wrapper img {
+    margin-bottom: 2px;
+    border-radius: 2%;
+    max-width: 100%;
+    height: auto;
+  }
+  .hp-logo {
+    margin-left: 20%;
+    width: 350px;
+    height: 200px;
+  }
+
+  .vail-logo,
+  .boozimba-logo {
+    width: 200px;
+    height: 200px;
+  }
+}

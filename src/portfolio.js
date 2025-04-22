@@ -334,6 +334,60 @@ const skills = {
     },
   ],
 };
+//Experience
+const exp = {
+  title: "Experience",
+  subtitle: "Work, Internship and Volunteership",
+  description:
+    "I have worked with both fast-paced startups and established organizations as a Software Engineer, focusing on Full Stack Development, Cloud Infrastructure, and Data-Driven Systems. My roles have ranged from building real-time dashboards and scalable APIs to deploying microservices on cloud-native platforms.In addition to my core work experience, I’ve actively contributed to academic research projects in Mobile Application Development and have taken part in open source communities and hackathons, emphasizing my passion for innovation, collaboration, and continuous learning.",
+  header_image_path: "experience.svg",
+  data: [
+    {
+      company: "Vehicle Autonomy and Intelligence Lab",
+      title: "Software Engineer - Full Stack",
+      fileName: "VAIL",
+      duration: "Oct 2023 – Mar 2025",
+      location: "Remote",
+      responsibilities: [
+        "⚡ Developed real-time race car dashboards using React.js, Tailwind CSS, and WebSockets, boosting responsiveness by 50%",
+        "⚡ Built a geospatial visualization platform with Node.js, Redis, and D3.js, achieving 99% location accuracy and halving render times",
+        "⚡ Delivered a racing team web app used by 10K+ visitors, helping generate $80K+ in sponsorships",
+        "⚡ Architected microservices with Spring Boot & GraphQL, improving responsiveness by 20% and scalability by 45%",
+        "⚡ Automated CI/CD pipelines using Jenkins, Docker, AWS & Kubernetes, increasing test coverage by 20%",
+        "⚡ Enhanced testing processes with Selenium, Cypress, and JUnit, achieving 98% coverage and 40% QA cycle reduction",
+        "⚡ Designed high-throughput UDP/IP protocol in C++ and Python for real-time sensor data (1GB+ at 100Hz)",
+      ],
+    },
+    {
+      company: "Hewlett-Packard",
+      title: "Software Engineer",
+      fileName: "HP",
+      duration: "Jan 2020 – Jul 2022",
+      location: "Bangalore, KS",
+      responsibilities: [
+        "⚡ Created scalable event booking applications using React.js, Redux, and AWS S3, increasing engagement by 45%",
+        "⚡ Built Python/Django + Angular dashboards for 700+ business users, improving decision-making and visibility by 30%",
+        "⚡ Engineered secure REST APIs with Spring Boot and JWT, handling 10K+ B2B daily transactions",
+        "⚡ Designed microservice architecture with Node.js and Express.js, improving scalability by 30%",
+        "⚡ Tuned PostgreSQL DB performance using indexing and optimization, reducing query times by 35%",
+        "⚡ Automated infrastructure with Jenkins, AWS Lambda/EC2, and Terraform, improving deployment by 40%",
+        "⚡ Implemented Apache Kafka + Spark pipelines, boosting data processing by 30%",
+      ],
+    },
+    {
+      company: "Boozimba",
+      title: "Web Developer",
+      fileName: "BOOZ",
+      duration: "Jun 2019 – Dec 2019",
+      location: "Bangalore, KS",
+      responsibilities: [
+        "⚡ Led development of a cross-platform app using React Native and MongoDB, gaining 1000+ users and 20% retention boost",
+        "⚡ Built scalable backend architecture using J2EE and Spring Boot, cutting server response time by 20%",
+        "⚡ Integrated .NET Core and Java services seamlessly, improving system performance by 30%",
+      ],
+    },
+  ],
+};
 
 // Education Page
 const competitiveSites = {
@@ -414,7 +468,7 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    "I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+    "I have worked with both fast-paced startups and established organizations as a Software Engineer, focusing on Full Stack Development, Cloud Infrastructure, and Data-Driven Systems. My roles have ranged from building real-time dashboards and scalable APIs to deploying microservices on cloud-native platforms.In addition to my core work experience, I’ve actively contributed to academic research projects in Mobile Application Development and have taken part in open source communities and hackathons, emphasizing my passion for innovation, collaboration, and continuous learning.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -648,6 +702,7 @@ export {
   greeting,
   socialMediaLinks,
   skills,
+  exp,
   competitiveSites,
   degrees,
   certifications,
