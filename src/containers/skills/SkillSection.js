@@ -3,10 +3,10 @@ import "./Skills.css";
 import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
 import { skills } from "../../portfolio";
 import { Fade } from "react-reveal";
-import FrontEndImg from "./FrontEndImg";
-import BackEndImg from "./BackEndImg";
-import CloudInfraImg from "./CloudInfraImg";
-import DesignImg from "./DesignImg";
+import FrontEndImg from "./FrontEndImg.js";
+import BackEndImg from "./BackEndImg.js";
+import CloudInfraImg from "./CloudInfraImg.js";
+import DesignImg from "./DesignImg.js";
 
 function GetSkillSvg(props) {
   if (props.fileName === "FrontEndImg")
