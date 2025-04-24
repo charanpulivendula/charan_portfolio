@@ -1,12 +1,14 @@
 .exp-main-div {
   display: flex;
   overflow: hidden;
+  margin-bottom: 30px;
 }
 
 .exp-main-div-reverse {
   display: flex;
   flex-direction: row-reverse;
   overflow: hidden;
+  margin-bottom: 30px;
 }
 
 .exp-header {
@@ -74,15 +76,16 @@
   height: auto;
 }
 
-/* Logos */
-.hp-logo {
-  margin-left: 20%;
-  width: 750px;
-  height: 400px;
+.hp-image-wrapper img {
+  width: 800px;
+  height: 500px;
 }
 
+/* Logos */
+
 .vail-logo,
-.boozimba-logo {
+.boozimba-logo,
+.hp-logo {
   width: 250px;
   height: 250px;
 }
@@ -96,9 +99,12 @@
     font-size: 50px;
   }
   .hp-logo {
-    margin-left: 20%;
-    width: 450px;
+    width: 250px;
     height: 250px;
+  }
+  .hp-image-wrapper img {
+    width: 550px;
+    height: 350px;
   }
   /* .exp-image-div > img {
     margin-top: 0px;
@@ -169,14 +175,14 @@
     max-width: 100%;
     height: auto;
   }
-  .hp-logo {
-    margin-left: 20%;
-    width: 350px;
-    height: 200px;
+  .hp-image-wrapper img {
+    width: 500px;
+    height: 300px;
   }
 
   .vail-logo,
-  .boozimba-logo {
+  .boozimba-logo,
+  .hp-logo {
     width: 200px;
     height: 200px;
   }

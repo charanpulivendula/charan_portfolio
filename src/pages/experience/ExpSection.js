@@ -12,9 +12,16 @@ import Vail_logo from "./Vail_logo.png";
 import HP_logo from "./HP_logo.png";
 import Vail_img from "./vail_image.avif";
 import HP_img from "./HP_img.png";
+import HP_workflow from "../../assets/images/hp_workflow.png";
 
 function GetImageSvg(props) {
-  if (props.fileName === "HP") return <></>;
+  if (props.fileName === "HP") {
+    return (
+      <div className="hp-image-wrapper">
+        <img src={HP_workflow} alt="HP_Img" />
+      </div>
+    );
+  }
 
   if (props.fileName === "VAIL") {
     return (
@@ -33,7 +40,7 @@ function GetLogo(props) {
   if (props.fileName === "HP") {
     return (
       <a href="https://www.hp.com/us-en/home.html">
-        <img src={HP_img} className="hp-logo" alt="HP_logo" />
+        <img src={HP_logo} className="hp-logo" alt="HP_logo" />
       </a>
     );
   } else if (props.fileName === "VAIL") {
@@ -79,6 +86,7 @@ class ExpSection extends Component {
                   </h1>
                   <h2 className="exp-sub-heading" style={{ color: theme.text }}>
                     {exp.title}
+                    <inline>{" (" + exp.duration + ")"}</inline>
                   </h2>
                   <div className="exp-image-div">
                     <GetImageSvg fileName={exp.fileName} theme={theme} />

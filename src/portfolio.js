@@ -353,7 +353,7 @@ const exp = {
       company: "Vehicle Autonomy and Intelligence Lab",
       title: "Software Engineer - Full Stack",
       fileName: "VAIL",
-      duration: "Oct 2023 – Mar 2025",
+      duration: "Oct 2023 – ",
       location: "Remote",
       responsibilities: [
         "⚡ Developed real-time race car dashboards using React.js, Tailwind CSS, and WebSockets, boosting responsiveness by 50%",
